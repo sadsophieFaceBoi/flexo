@@ -1,0 +1,29 @@
+{
+  "name": "flexo-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/flexo",
+    "packages/flexo-playground"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.0.15"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.15",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.8.2"
+  }
+}
